@@ -1,0 +1,1379 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.containers{
+    width: 1440px;
+    overflow: hidden;
+}
+.container_full{
+    display: flex;
+    justify-content: center;
+}
+.content_ozon{
+    width: 1100px;
+}
+.button{
+    background-color: #005BFF;
+    padding: 3px 10px 3px 10px;
+    border-radius:6px;
+    border: 0px;
+}
+.button:hover, .search_submit:hover{
+    background-color: #048DDB;
+}
+.search_button:hover{
+    background-color:silver;
+}
+.header_button{
+    display: flex;
+    text-decoration: none;
+}
+.button_text{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.header_search{
+    display: flex;
+    border: solid #4084FF;
+    height: 41px;
+}
+.search_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    color: #7B7D80;
+    width: 90px;
+}
+.fa-search {
+    font-size: 16px;
+    margin-right: 7px;
+    color: white;
+}
+.search_input{
+    border: 0px;
+}
+.search_submit{
+    background-color: #005BFF;
+    width: 122px;
+    height: 40px;
+    margin-top: -3px;
+    border: 0px;
+}
+.header_right_menus{
+    display: flex;
+    align-items: center;
+}
+.right_menu{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.right_menu i, .right_menu span{
+    display: flex;
+    justify-content: center;
+    margin: 2px 0px 2px 0px;
+    color: #6A6C70;
+}
+.right_menu i{
+    color: #00102B;
+    font-size: 24px;
+}
+.order_icon{
+    margin-top: -4px;
+    height: 35px;
+    width: 35px;
+}
+.content_certificate{
+    background-color: #001326;
+}
+.about_certificate{
+    height: 379px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.buy_certificate{
+    color: white;
+}
+.action_to_end{
+    color: white;
+    margin: 50px 0px 50px 0px;
+}
+.homepage{
+    background-color: #001326;
+    display: flex;
+}
+.homepage_content{
+    justify-content: center;
+    align-items: center;
+}
+.button_action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 52px;
+}
+.button_action img{
+    margin-right: 7px;
+    width: 20px;
+    height: 28px;
+}
+.certificate_button{
+    width: 250px;
+    height: 58px;
+    color: white;
+    font-size: 18px;
+}
+.certificate_img{
+    display: flex;
+    justify-content: end;
+}
+.certificate_ozon{
+    display: flex;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.blue_text{
+    color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.white_text{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.gallery_content{
+    display: flex;
+    flex-direction: row;
+    height: 310px !important;
+    background-color: #01182F;
+}
+.swiper_content img{
+    width: 77px;
+    height: 69px;
+    margin-top: 60px;
+}
+.gallery_icon{
+    display: flex;
+    justify-content: center;
+}
+.swiper_content{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.swiper_border{
+    border: solid 1px transparent;
+    border-image: linear-gradient(silver, white, silver);
+    -moz-border-image: -moz-linear-gradient(#65717E, #E4E4E4, #65717E);
+    -webkit-border-image: -webkit-linear-gradient(#65717E, #E4E4E4, #65717E);
+    border-image-slice: 1;
+}
+.gallery_text{
+    padding: 24px 30px 30px 30px;
+}
+.swiper-button-next, .swiper-button-prev{
+    margin-top: -164px !important;
+    color: white !important;
+}
+.digital_goods{
+    display: flex;
+    flex-direction: column;
+}
+.digital_goods img{
+    border-radius: 20px;
+}
+.goods_content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 132px;
+}
+.button_right{
+    display: flex;
+    justify-content: end;
+}
+.button_left{
+    display: flex;
+    justify-content: start;
+}
+.button_transparent{
+    border: 0px;
+    display: flex;
+    color: #5A6C7D;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 12px;
+    width: 200px;
+    height: 24px;
+}
+.active_color{
+    background-color: #E5EFFF;
+}
+.goods_number{
+    background-color: white;
+    border: 2px solid #C4C4C4;
+    border-radius: 6px;
+    color: #5A6C7D;
+    text-decoration: none;
+    font-size: 14px;
+}
+.goods_number_active{
+    border: 2px solid #4084FF;
+}
+.certificate_delivery{
+    margin-top: 30px;
+    color: #5A6C7D;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.payment_action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 36px;
+    background: #FFFFFF;
+    box-shadow: -8px 8px 20px 5px rgba(0, 19, 38, 0.12);
+    border-radius: 10px;
+}
+.payment_action_rubl span{
+    font-size: 30px;
+    color: #F91155;
+    margin-right: 20px;
+}
+.payment_action_rubl del{
+    font-size: 20px;
+    line-height: 26px;
+    color: #001A34;
+}
+.payment_percent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 6px;
+    gap: 10px;
+    width: 126px;
+    height: 26px;
+    background: #FFD540;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #001A34;
+}
+.payment_form{
+    width: 100%;
+}
+.payment_form .email{
+    margin-bottom: 20px;
+}
+.payment_form .email,.payment_form .number{
+    box-sizing: border-box;
+    width: 366px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #005BFF;
+    border-radius: 5px;
+}
+.payment_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 10px;
+    width: 318px;
+    height: 56px;
+    background: #005BFF;
+    border-radius: 5px;
+    color: white;
+    margin-top: 35px;
+    border: 0px;
+}
+.payment_submit:hover{
+    background-color: #048DDB;
+}
+.payment_form_content{
+    display: flex;
+    justify-content: center;
+}
+.payment_form_delivery{
+    margin-top: 10px;
+}
+.payment_salesman{
+    display: flex;
+}
+.payment_salesman img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 26px;
+}
+.payment_salesman .salesmen{
+    font-size: 14px;
+    color: #6A6C70;
+    margin-bottom: 10px;
+}
+.payment_salesman b{
+    color: #001326;
+    font-size: 14px;
+}
+.payment_content{
+    width: 340px;
+}
+.secure_payment{
+    margin-top: 27px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001326;
+}
+.licence_payment{
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+.fa-credit-card{
+    margin-right: 22px;
+}
+.licence_header_img{
+    width: 66px;
+    height: 19px;
+    margin-right: 10px;
+}
+.fa-exclamation-circle{
+    color: #C4C4C4;
+    font-size: 24px;
+    margin-left: 5px;
+}
+.purchased{
+    display: flex;
+    font-size: 17px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    width: 304px;
+    height: 44px;
+    background: #E5EFFF;
+    margin-top: 52px;
+}
+.payment_about a{
+    font-size: 16px;
+}
+.url_link{
+    text-decoration: none;
+    color: #0058DA;
+}
+.payment_about{
+    color: #6A6C70;
+}
+.payment_about>div{
+    margin-bottom: 19px;
+}
+.payment_header_img{
+    width: 39px;
+    height: 19px;
+}
+.description span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001A34;
+}
+.content_answer{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    margin-top: 123px;
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: center;
+}
+.question{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #8394BF;
+    display: flex;
+    justify-content: space-between;
+}
+.answer{
+    margin-left: 44px;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.001818em;
+    color: #F2F2F2;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.answer_to_question hr{
+    border: 1px solid #7889B1;
+}
+.comment{
+    height: 1382px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.comments{
+    font-size: 24px;
+    line-height: 30px;
+    color: #001A34;
+    margin-top: 44px;
+}
+.user_comment{
+    margin-top: 51px;
+}
+.user_data{
+    display: flex;
+}
+.comment_left_content img{
+    width: 64px;
+    height: 64px;
+}
+.comment_right_content, .comment_left_content{
+    display: flex;
+    flex-direction: row;
+}
+.fa-star{
+    color: #FF8970;
+}
+.comment_date{
+    font-size: 14px;
+    line-height: 18px;
+    color: #6A6C70;
+    margin-right: 20px;
+}
+.black_comment_text{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #001326;
+}
+.item_purchased{
+    display: flex;
+    width: 194px;
+    height: 30px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6A6C70;
+    margin-bottom: 5px;
+}
+.comment_text{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0px 0px 74px;
+}
+.item_purchased .fa-check{
+    color: #3FA56A;
+}
+.comment_rating{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 300%;
+    color: #0058DA;
+}
+.comment_quality{
+    display: flex;
+    margin: 8px 0px;
+    line-height: 300%;
+}
+.comment_quality span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6A6C70;
+}
+.comment_quality div{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #001326;
+}
+.comment_text_black{
+    margin: 52px 0px 8px 0px;
+}
+.comment_rate{
+    display: flex;
+}
+.comment_rate_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 7px;
+    height: 33px;
+    background: #E5EFFF;
+    border-radius: 20px;
+    margin: 8px 13px 0px 13px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #001326;
+}
+.ozon_certificate{
+    display: flex;
+    justify-content: center;
+    margin: 54px 0px 41px 0px;
+}
+.content_display_flex{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+      margin-top: 34px;
+
+}
+.footer_service{
+    display: flex;
+    justify-content: center;
+}
+.footer_service div{
+    font-size: 14px;
+    line-height: 18px;
+    color: #6A6C70;
+    margin: 7px 0px;
+}
+.social_icons{
+    display: flex;
+}
+.social_icons img{
+    width: 23px;
+    height: 23px;
+    margin-right: 14px;
+}
+.swiper-pagination{
+    margin-bottom: 18px;
+}
+.swiper-pagination-bullet{
+    margin-right: 8px;
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+}
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .header{
+        display: none;
+    }
+    .about_certificate{
+        width: 244px;
+        height: 384px;
+    }
+    .certificate_img{
+        margin-top: 34px;
+    }
+    .certificate_img img{
+        width: 244px;
+    }
+    .homepage_content{
+        flex-direction: column;
+        padding: 100px 0px 0px 14px;
+    }
+    .homepage_content_main{
+        display: none;
+    }
+    .buy_certificate{
+        width: 320px;
+        font-size: 20px;
+    }
+    .certificate_ozon{
+        margin-top: 44px;
+    }
+    .action_to_end{
+        font-size: 14px;
+    }
+    .button_action{
+        font-size: 14px;
+    }
+    .ozon_certificate{
+        font-size: 18px;
+    }
+    .digital_goods img{
+        height: 184px;
+        width: 254px;
+    }
+    .rating{
+        width: 236px;
+    }
+    .digital_goods{
+        margin-right: 10px;
+    }
+    .content_certificate{
+        height: 1364px;
+    }
+    .goods_content_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .goods_number{
+        padding: 8px 10px;
+        height: 32px;
+        margin: 7px 2px;
+    }
+    .payment_content{
+        width: 314px;
+        height: 304px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: column;
+        margin-left: 33px;
+    }
+    .payment_content, .payment_about{
+        margin-left: 10px;
+    }
+    .payment_action{
+        margin-bottom: 44px;
+        width: 320px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        display: flex;
+        justify-content: center;
+        margin-top: 48px;
+        padding: 12px;
+        margin-bottom: 33px;
+    }
+    .answer_to_question{
+        width: 320px;
+        margin-bottom: 184px;
+    }
+    .description_display{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+    .ozon_certificate b, .content_answer b{
+        width: 320px;
+    }
+    .payment_action_display{
+        display: flex;
+        justify-content: center;
+    }
+    .prize_content_left{
+        width: 300px;
+        height: 72px;
+    }
+    .banner_img img{
+        width: 300px;
+    }
+    .banner_img{
+        margin-right: -24px;
+        margin-top: 164px;
+    }
+    .homepage{
+        margin-top: -84px;
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        flex-direction: column;
+    }
+    .user_data{
+        justify-content: center;
+    }
+    .comment_right_content{
+        align-items: end;
+    }
+    .footer{
+        display: none;
+    }
+    .gallery_content{
+        width: 320px !important;
+    }
+    .gallery_text{
+        font-size: 14px;
+    }
+    .gallery_swiper{
+        display: none;
+    }
+    .swiper_content{
+        width: 54%;
+    }
+    .swiper-button-next{
+        margin-right: 10px;
+    }
+    .swiper-button-prev {
+        margin-left: 10px;
+    }
+}
+/* mobile landscape */
+@media all and (max-width: 768px) and (min-width: 600px) {
+    .header{
+        display: none;
+    }
+    .about_certificate{
+        width: 284px;
+        height: 464px;
+    }
+    .certificate_img img{
+        width: 284px;
+    }
+    .homepage_content{
+        padding: 140px 0px 0px 14px;
+    }
+    .homepage_content_mini{
+        display: none;
+    }
+    .buy_certificate{
+        width: 544px;
+        font-size: 20px;
+    }
+    .certificate_ozon{
+        margin-top: 74px;
+    }
+    .action_to_end{
+        font-size: 14px;
+    }
+    .button_action{
+        font-size: 15px;
+    }
+    .ozon_certificate{
+        font-size: 22px;
+    }
+    .digital_goods img{
+        height: 204px;
+    }
+    .rating{
+        width: 244px;
+    }
+    .digital_goods{
+        margin-right: 20px;
+    }
+    .content_certificate{
+        height: 1274px;
+    }
+    .goods_content_display{
+        display: flex;
+        justify-content: center;
+    }
+    .goods_number{
+        padding: 10px 13px;
+        height: 36px;
+        margin: 8px 3px;
+    }
+    .payment_content{
+        width: 304px;
+        height: 284px;
+    }
+    .answer_to_question{
+        width: 544px;
+        margin-bottom: 194px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .payment_content, .payment_about{
+        margin-left: 25px;
+        width: 250px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .payment_action{
+        width: 300px;
+    }
+    .description{
+        margin-top: 78px;
+        padding: 14px;
+        margin-bottom: 63px;
+    }
+    .prize_content_left{
+        width: 294px;
+        height: 72px;
+    }
+    .banner_img img{
+        width: 294px;
+    }
+    .banner_img{
+        margin-right: -24px;
+        margin-top: -44px;
+    }
+    .homepage{   
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        justify-content: center;
+    }
+    .user_data{
+        justify-content: space-between;
+    }
+    .gallery_content{
+        width: 564px !important;
+    }
+    .gallery_text{
+        font-size: 16px;
+    }
+    .gallery_swiper_mini{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-right: 30px;
+    }
+    .swiper-button-prev {
+        margin-left: 30px;
+    }
+}
+/* mini tablet */
+@media all and (max-width: 1000px) and (min-width: 768px) {
+    .about_certificate{
+        width: 324px;
+        height: 434px;
+    }
+    .certificate_img img{
+        width: 324px;
+    }
+    .search_input{
+        width: 150px;
+    }
+    .header_img {
+        width: 60px;
+        height: 29px;
+    }
+    .header_button{
+        margin-left: 6px;
+        width: 110px;
+        height: 31px;
+    }
+    .right_menu{
+        margin-left: 7px;
+    }
+    .header_search{
+        margin-left: 8px;
+    }
+    .homepage_content{
+        padding: 170px 0px 0px 44px;
+    }
+    .homepage_content_mini{
+        display: none;
+    }
+    .buy_certificate{
+        width: 740px;
+        font-size: 27px;
+    }
+    .certificate_ozon{
+        margin-top: 84px;
+    }
+    .action_to_end{
+        font-size: 16px;
+    }
+    .button_action{
+        font-size: 16px;
+    }
+    .ozon_certificate{
+        font-size: 24px;
+    }
+    .digital_goods img{
+        height: 264px;
+    }
+    .rating{
+        width: 294px;
+    }
+    .digital_goods{
+        margin-right: 40px;
+    }
+    .content_certificate{
+        height: 1314px;
+    }
+    .goods_content_display{
+        display: flex;
+        justify-content: center;
+    }
+    .goods_number{
+        padding: 11px 15px;
+        height: 40px;
+        margin: 8px 3px;
+    }
+    .answer_to_question{
+        margin-bottom: 214px;
+        width: 724px;
+    }
+    .payment_content{
+        width: 300px;
+        height: 284px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .payment_content, .payment_about{
+        margin-left: 30px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .description{
+        margin-top: 118px;
+        padding: 16px;
+        margin-bottom: 83px;
+    }
+    .prize_content_left{
+        width: 324px;
+        height: 72px;
+    }
+    .banner_img img{
+        width: 300px;
+    }
+    .banner_img{
+        margin-right: -44px;
+        margin-top: -44px;
+    }
+    .homepage{   
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        justify-content: center;
+    }
+    .user_data{
+        justify-content: space-between;
+    }
+    .gallery_content{
+        width: 700px !important;
+    }
+    .gallery_text{
+        font-size: 17px;
+    }
+    .gallery_swiper_mini{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-right: 40px;
+    }
+    .swiper-button-prev {
+        margin-left: 40px;
+    }
+}
+/* tablet */
+@media all and (max-width: 1200px) and (min-width: 1000px) {
+    .about_certificate{
+        width: 384px;
+        height: 414px;
+    }
+    .certificate_img img{
+        width: 432px;
+    }
+    .search_input{
+        width: 314px;
+    }
+    .header_img {
+        width: 94px;
+        height: 29px;
+    }
+    .header_button{
+        margin-left: 6px;
+        width: 110px;
+        height: 31px;
+    }
+    .right_menu{
+        margin-left: 18px;
+    }
+    .header_search{
+        margin-left: 16px;
+    }
+    .homepage_content{
+        padding: 200px 0px 0px 84px;
+    }
+    .homepage_content_mini{
+        display: none;
+    }
+    .buy_certificate{
+        width: 900px;
+        font-size: 30px;
+    }
+    .certificate_ozon{
+        margin-top: 114px;
+    }
+    .action_to_end{
+        font-size: 18px;
+    }
+    .button_action{
+        font-size: 18px;
+    }
+    .ozon_certificate{
+        font-size: 28px;
+    }
+    .digital_goods img{
+        height: 304px;
+    }
+    .rating{
+        width: 378px;
+    }
+    .digital_goods{
+        margin-right: 50px;
+    }
+    .content_certificate{
+        height: 1314px;
+    }
+    .goods_content_display{
+        display: flex;
+        justify-content: center;
+    }
+    .goods_number{
+        padding: 12px 16px;
+        height: 42px;
+        margin: 10px 4px;
+    }
+    .answer_to_question{
+        width: 924px;
+        margin-bottom: 234px;
+    }
+    .payment_content{
+        width: 388px;
+        height: 368px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .payment_content, .payment_about{
+        margin-left: 40px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .description{
+        margin-top: 148px;
+        padding: 18px;
+        margin-bottom: 123px;
+    }
+    .prize_content_left{
+        width: 448px;
+        height: 72px;
+    }
+    .banner_img img{
+        width: 400px;
+    }
+    .banner_img{
+        margin-right: -84px;
+        margin-top: -44px;
+    }
+    .homepage{   
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        justify-content: center;
+    }
+    .user_data{
+        justify-content: space-between;
+    }
+    .gallery_content{
+        width: 900px !important;
+    }
+    .gallery_text{
+        font-size: 18px;
+    }
+    .gallery_swiper_mini{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-right: 50px;
+    }
+    .swiper-button-prev {
+        margin-left: 50px;
+    }
+}
+/* desktop */
+@media only screen and (min-width: 1200px) {
+    .about_certificate{
+        width: 694px;
+        height: 379px;
+    }
+    .certificate_img img{
+        width: 532px;
+        height: 577px;
+    }
+    .search_input{
+        width: 450px;
+    }
+    .header_img {
+        width: 94px;
+        height: 29px;
+    }
+    .header_button{
+        margin-left: 14px;
+        width: 122px;
+        height: 37px;
+    }
+    .right_menu{
+        margin-left: 24px;
+    }
+    .header_search{
+        margin-left: 20px;
+    }
+    .homepage_content{
+        padding: 220px 0px 0px 134px;
+    }
+    .homepage_content_mini{
+        display: none;
+    }
+    .buy_certificate{
+        font-size: 30px;
+    }
+    .certificate_ozon{
+        margin-top: 144px;
+    }
+    .action_to_end{
+        font-size: 19px;
+    }
+    .button_action{
+        font-size: 19px;
+    }
+    .ozon_certificate{
+        font-size: 34px;
+    }
+    .digital_goods img{
+        height: 363px;
+    }
+    .rating{
+        width: 428px;
+    }
+    .digital_goods{
+        margin-right: 60px;
+    }
+    .content_certificate{
+        height: 1514px;
+    }
+    .goods_content_display{
+        display: flex;
+        justify-content: center;
+    }
+    .goods_number{
+        padding: 12px 16px;
+        height: 42px;
+        margin: 10px 4px;
+    }
+    .answer_to_question{
+        width: 1100px;
+        margin-bottom: 254px;
+    }
+    .payment_content{
+        width: 394px;
+        height: 375px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .payment_content, .payment_about{
+        margin-left: 50px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .description{
+        margin-top: 168px;
+        padding: 20px;
+        margin-bottom: 133px;
+    }
+    .prize_content_left{
+        width: 488px;
+        height: 72px;
+    }
+    .banner_img{
+        margin-right: -144px;
+        margin-top: -44px;
+    }
+    .homepage{   
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        justify-content: center;
+    }
+    .user_data{
+        justify-content: space-between;
+    }
+    .gallery_content{
+        width: 1000px !important;
+    }
+    .gallery_text{
+        font-size: 19px;
+    }
+    .gallery_swiper_mini{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-right: 50px;
+    }
+    .swiper-button-prev {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .about_certificate{
+        width: 694px;
+        height: 379px;
+    }
+    .header_img {
+        width: 127px;
+        height: 37px;
+    }
+    .search_input{
+        width: 558px;
+    }
+    .header_button{
+        margin-left: 37px;
+        width: 122px;
+        height: 37px;
+    }
+    .right_menu{
+        margin-left: 37px;
+    }
+    .header_search{
+        margin-left: 27px;
+    }
+    .homepage_content{
+        padding: 256px 0px 0px 173px;
+    }
+    .homepage_content_mini{
+        display: none;
+    }
+    .buy_certificate{
+        font-size: 36px;
+    }
+    .certificate_ozon{
+        margin-top: 174px;
+    }
+    .action_to_end{
+        font-size: 20px;
+    }
+    .button_action{
+        font-size: 20px;
+    }
+    .ozon_certificate{
+        font-size: 34px;
+    }
+    .digital_goods img{
+        height: 363px;
+    }
+    .digital_goods{
+        margin-right: 60px;
+    }
+    .rating{
+        width: 487px;
+    }
+    .content_certificate{
+        height: 1600px;
+    }
+    .goods_content_display{
+        display: flex;
+        justify-content: center;
+    }
+    .goods_number{
+        padding: 14px 20px;
+        height: 47px;
+        margin: 10px 4.5px;
+    }
+    .answer_to_question{
+        width: 1100px;
+        margin-bottom: 324px;
+    }
+    .payment_content{
+        width: 406px;
+        height: 385px;
+    }
+    .payment_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .payment_content, .payment_about{
+        margin-left: 60px;
+    }
+    .payment_main_display{
+        display: flex;
+        flex-direction: row;
+    }
+    .description{
+        margin-top: 212px;
+        padding: 24px;
+        margin-bottom: 163px;
+    }
+    .prize_content_left{
+        width: 528px;
+        height: 72px;
+    }
+    .banner_img{
+        margin-right: -144px;
+        margin-top: -44px;
+    }
+    .homepage{   
+        justify-content: center;
+    }
+    .homepage_certificate_display{   
+        display: flex;
+        justify-content: center;
+    }
+    .user_data{
+        justify-content: space-between;
+    }
+    .gallery_content{
+        width: 1100px !important;
+    }
+    .gallery_text{
+        font-size: 20px;
+    }
+    .gallery_swiper_mini{
+        display: none;
+    }
+    .swiper-button-next{
+        margin-right: 70px;
+    }
+    .swiper-button-prev {
+        margin-left: 70px;
+    }
+}
